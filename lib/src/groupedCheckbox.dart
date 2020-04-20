@@ -261,7 +261,7 @@ class _GroupedCheckboxState extends State<GroupedCheckbox> {
   }
 
   Widget item(int index) {
-    return Row(
+    return Column(
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         Checkbox(
